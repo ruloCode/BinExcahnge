@@ -1,7 +1,7 @@
 
-# Next basic 100X
-![pwa](https://user-images.githubusercontent.com/48034545/135700784-452049ee-0f27-4431-91b6-00f1f9644d6a.gif)
-Next.js app that achieves a 100% score in Google Lighthouse
+# Binary to decimal number converter
+
+![image](https://user-images.githubusercontent.com/48034545/180624355-65537a35-9002-4f7d-b343-0840bfc4c553.png)
 
 ## Getting Started
 
