@@ -1,0 +1,97 @@
+@import './variables.scss';
+
+.app {
+  width: 100%;
+  height: 100%;
+  padding: 32px 16px
+}
+
+body {
+  height: 100vh;
+  scroll-behavior: smooth;
+  background: var(--background-color);
+  font-family: var(--font-primary);
+  color: var(--color-white);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+/* ==================== RESET BROWSER ==================== */
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--cyan-70);
+}
+
+img {
+  height: auto;
+  max-height: 100%;
+}
+
+p,
+li {
+  margin: 0;
+  font-family: sans-serif, var(--font-secondary);
+  font-weight: 400;
+  font-size: var(--type-scale-30);
+  line-height: 1.5;
+  color: var(--grey-90);
+}
+
+.wrapper {
+  --wrapper-width: 95%;
+
+  padding-right: calc(50vw - (var(--wrapper-width) / 2));
+  padding-left: calc(50vw - (var(--wrapper-width) / 2));
+
+  &--hasBackground {
+    background-color: #f9fafb;
+  }
+
+  @media only screen and (min-width: 1280px) {
+    --wrapper-width: 1216px;
+  }
+
+  @media only screen and (min-width: 1504px) {
+    --wrapper-width: 1440px;
+  }
+}
+
+.title {
+  font-family: var(--font-primary);
+  &--1 {
+    font-size: 36px;
+    font-weight: 800;
+  }
+  &--2 {
+    font-size: 18px;
+  }
+}
